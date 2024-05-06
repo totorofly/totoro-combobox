@@ -10,6 +10,9 @@ This is a combobox component implemented in native JavaScript using TypeScript. 
 - **Navigation from Any Visible Position**: Allows navigation to start from any position visible in the viewport, beginning with the first item.
 - **No Conflict Between Cursor and Keyboard Movements**: Ensures that mouse cursor and keyboard navigation do not interfere with each other, providing a smooth user experience.
 
+# Preview
+![20240506182303_rec_](https://github.com/totorofly/totoro-combobox/assets/41875799/51c3b33a-dae5-447b-8955-2413b426fbe9)
+
 # Demo
 
 https://stackblitz.com/edit/vitejs-vite-iswccr?file=src%2Ftotoro-combobox.ts,src%2Fmain.ts,src%2Fstyle.scss,index.html
