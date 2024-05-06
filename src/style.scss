@@ -1,0 +1,71 @@
+#comboboxWrapper {
+  position: relative;
+  padding: 1rem;
+  border-radius: 5px;
+  width: 300px;
+}
+
+#selectedItem {
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  border: 1px solid gainsboro;
+}
+
+#comboboxFloating {
+  position: absolute;
+  display: none;
+}
+input {
+  padding: 0.65rem 1rem;
+  font-size: 14px;
+  color: black;
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid gainsboro;
+}
+input::placeholder {
+  color: gainsboro;
+}
+
+input:focus {
+  outline: none;
+  cursor: text;
+}
+
+#combo-box {
+  border: 1px solid gainsboro;
+  background-color: white;
+  border-radius: 5px;
+  color: black;
+  overflow: hidden;
+  #list-box {
+    height: 300px;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    padding: 0.25rem 0.5rem;
+
+    div[role="option"] {
+      padding: 0.5rem 0.5rem;
+      border-radius: 5px;
+    }
+    div.highlighted {
+      background-color: #f0f0f0;
+    }
+
+    div.selected {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: #c316f4;
+    }
+
+    div.selected::after {
+      content: "";
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      background-image: url("check-icon.png");
+      background-size: cover;
+    }
+  }
+}
