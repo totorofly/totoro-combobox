@@ -104,7 +104,7 @@ export class TotoroComboBox<T extends ComboBoxItem> {
     const parentRect = parent.getBoundingClientRect();
 
     if (rect.bottom > parentRect.bottom) {
-      parent.scrollTop += rect.bottom - parentRect.bottom;
+      parent.scrollTop += rect.bottom - parentRect.bottom + 50;
     } else if (rect.top < parentRect.top) {
       parent.scrollTop += rect.top - parentRect.top;
     }
