@@ -11,7 +11,7 @@ This is a combobox component implemented in native JavaScript using TypeScript. 
 - **No Conflict Between Cursor and Keyboard Movements**: Ensures that mouse cursor and keyboard navigation do not interfere with each other, providing a smooth user experience.
 
 # Preview
-![20240506182514_rec_](https://github.com/totorofly/totoro-combobox/assets/41875799/3f1d2ca3-93ba-4280-a2db-7887789f4b5a)
+<img src="https://github.com/totorofly/totoro-combobox/assets/41875799/3f1d2ca3-93ba-4280-a2db-7887789f4b5a" width="400" height="350">
 
 # Demo
 
